@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: saira;
+}
+
+html,body{
+    height: 100%;
+}
+
+@font-face{
+    src: url('../fonts/Saira/Saira-Regular.ttf');
+    font-family: "saira";
+}
+
+.clear{
+    clear: both;
+}
+                                            /*center*/
+.center{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+                                            /*Fim center*/
+
+                                            /*header*/
+header{
+    width: 100%;
+    padding: 0 2%;
+    height: 100px;
+    background-color: #29343A;
+}
+
+header img{
+    margin: 15px;
+}
+                                            /*Fim header*/
+
+                                            /*image fundo*/
+.container-fundo{
+    width: 100%;
+    height: 557px;
+    padding: 0 2%;
+    background-image: url('../image/fundo.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+                                            /*Fim image fundo*/
+
+.container-fundo > .center{
+    height: 100%;
+}
+                                        /*text 01*/
+.container-TextFundo{
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 100px;
+    float: left;
+    width: 519px;
+    height: 270px;
+    background-color: rgba(50, 50, 50, 0.38);
+}
+
+.container-TextFundo ul{
+    list-style-position: inside;
+}
+
+.container-TextFundo ul li{
+    font-size: 18px;
+    margin-top: 18px;
+    color: white;
+}
+
+                                    /*Fim text 01*/
+
+
+                                    /*Form*/
+
+.form{
+    padding: 30px;
+    width: 400px;
+    height: calc(100% + 30px);
+    float: right;
+    position: relative;
+    top: -15px;
+    background-color: #3D4A52;
+    border-radius: 15px;
+    border: 8px solid #ED9C61;
+}
+
+.form h2{
+    font-weight: normal;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+}
+
+.form-div{
+    margin-top: 20px;
+}
+
+.form-div span{
+    width: 100%;
+    display: inline-block;
+    color: white;
+    font-size: 17px;
+}
+.form p{
+    width: 100%;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    margin: 40px 0;
+}
+
+.form-submit{
+    text-align: center;
+}
+
+.form input[type="text"]{
+    color: #29343A;
+    background-color: #ED9C61;
+    margin-top: 10px;
+    width: 100%;
+    height: 36px;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.form-submit input[type="submit"]{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 15px;
+    border: none;
+    background-color: #ED9C61;
+    color: #29343A;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-submit input[type="submit"]:hover{
+    background-color: #c58251;
+    transition: 0.8s;
+}
+
+                                        /*Fim form*/
+
+                                        /*text 02*/
+.Past2{
+    padding: 40px 2%;
+    background-color: #29343A;
+    text-align: center;
+}
+
+.Past2 h2{
+    color: #ED9C61;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.Past2 p{
+    width: 100%;
+    font-size: 17px;
+    max-width: 768px;
+    margin: 15px 0;
+    display: inline-block;
+    text-align: justify;
+    color: white;
+}
+
+                                        /*Fim text 02*/
+
+                                        /*icone seta*/
+.icone{
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    background-image: url('../image/seta.png');
+    background-size: 100% 100%;
+}
+                                /*icone seta*/
+
+                                /*Singles*/
+.container-icone{
+    padding: 90px 2%;
+    background-color: #3D4A52;
+    
+}
+                                        
+
+.container-icone h2{
+    text-align: center;
+    color: #ED9C61;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.icones-past{
+    margin-top:40px;
+	text-align: center;
+}
+
+.container-past5{
+    float: left;
+    width: 33%;
+    padding: 30px;
+}
+
+.container-past5 p{
+    display: inline-block;
+    text-align: justify;
+    color: white;
+    padding: 10px;
+}
+
+                                     /*Fim Singles*/
+
+
+                                     /*Footer*/
+
+footer{
+    background-color: #29343A;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.img-footer img{
+    width: 42px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+                                    /*Fim Footer*/
+
+
+                                    /*Tamhor de tela de 1024px*/
+
+
+@media screen and (max-width:1024px){
+                                        
+                                             /*header*/
+    header{
+		height: auto;
+		width: 100%;
+		padding:15px 0;
+		text-align: center;
+	}
+
+	hearde img{
+		margin:0;
+    }
+    
+                                                /*Fim header*/
+
+                                                /*text 01*/
+
+	.container-TextFundo{
+		padding:30px 2%;
+		width: 40%;
+		display: inline-block;
+		max-width: 500px;
+        height: auto;
+    }
+    
+    .container-TextFundo ul li{
+        text-align: left;
+    }
+
+                                                /*Fim text 01*/
+
+                                                 /*image fundo*/
+
+	.container-fundo{
+		width: 100%;
+		padding:40px 2%;
+		height: auto;
+		text-align: center;
+    }
+    
+                                            /*Fim image fundo*/
+
+                                             /*form*/
+
+	.form{
+		max-width: 400px;
+		padding:30px;
+		width: 60%;
+		height: 100%;
+		float:right;
+		top:0;
+	}
+
+	.form-div input[type=text]{
+		width: 100%;
+		height: 35px;
+	}
+
+    .form-submit{
+        text-align: center;
+    }
+
+	.form input[type=submit]{
+		max-width: 280px;
+		height: 56px;
+        width:100px ;
+        border-radius: 15px;
+    }
+
+                                                /*Fim form*/
+
+                                                /*single */
+    
+    .container-past5 p{
+        text-align: center;
+    }
+                                                /*Fim single */
+}
+
+                                                    /*Fim Tamhor de tela de 1024px*/
+
+
+
+                                                    /*Tamhor de celular*/
+
+@media screen and (max-width: 768px){
+
+                                                /*text01 */
+    .container-TextFundo{
+        margin-top: 0;
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .container-TextFundo ul li{
+        font-size: 13px;
+    }
+                                                
+                                                /*Fim text01 */
+
+                                                /*text02*/
+    .Past2{
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+
+    .Past2 h2{
+        font-size:16px ;
+    }
+
+    .Past2 p{
+        font-size: 13px;
+    }
+                                                /*Fim text02*/
+
+                                                 /*form*/
+    .form{
+        display: inline-block;
+        float: none;
+        width: 100%;
+        max-width: 400px;
+        padding:30px;
+        margin-top: 20px;
+    }
+
+    .input-container input[type=text]{
+		width: 100%;
+		height: 10px;
+	}
+
+    .form h2{
+        font-size: 20px;
+    }
+
+    .form span{
+        font-size: 14px;
+    }
+
+    .form p{
+        font-size: 10px;
+        margin-top: 13px;
+    }
+                                                /*Fim form*/
+
+                                                /*singles*/
+    .container-past5{
+        float: none;
+        display: inline-block;
+        width: 100%;
+        max-width: 600px;
+        padding: 30px 0;
+    }
+
+    .container-past5 img{
+        width: 82px;
+    }
+
+    .container-past5 p{
+        font-size: 13px;
+    }
+    .container-icone h2{
+        font-size: 24px;
+    }
+                                                /*Fim singles*/
+
+                                                /*footer*/
+    .img-footer img{
+        width: 32px;
+    }
+}
+                                             /*Fim Tamhor de celular*/
